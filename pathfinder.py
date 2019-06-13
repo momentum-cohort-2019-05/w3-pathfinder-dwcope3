@@ -3,10 +3,10 @@
 file = "elevation_small.txt"
 
 with open(file) as f:
-    coordinates = f.read().split()
+    elevations = f.read().split()
 
-# print(coordinates)
-print(max(coordinates))
-print(min(coordinates))
+# print(elevations)
+print(max(elevations))
+print(min(elevations))
 max = 5648
 min = 3139
